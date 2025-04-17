@@ -1,42 +1,51 @@
 body {
-  font-family: sans-serif;
-  max-width: 800px;
-  margin: auto;
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
   padding: 2rem;
-  line-height: 1.6;
-  background-color: #f9f9f9;
+  background: #f4f4f4;
   color: #333;
 }
-
-h1 {
-  color: #2c3e50;
+header {
+  text-align: center;
+  margin-bottom: 2rem;
 }
-
-a {
-  color: #007acc;
+nav a {
+  margin: 0 1rem;
   text-decoration: none;
+  color: #007acc;
 }
-
-a:hover {
+nav a:hover {
   text-decoration: underline;
 }
-
-
+section {
+  background: #fff;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 .project-card {
-  border: 1px solid #ccc;
+  border: 1px solid #ddd;
   border-radius: 8px;
   padding: 1rem;
-  margin-bottom: 1.5rem;
-  background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  margin-bottom: 1rem;
+  background: #fefefe;
 }
-
 .project-card h3 {
   margin-top: 0;
 }
-
 .project-card a {
   display: inline-block;
   margin-top: 0.5rem;
   font-weight: bold;
+}
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+  nav a {
+    display: block;
+    margin: 0.5rem 0;
+  }
 }

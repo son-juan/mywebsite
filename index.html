@@ -2,39 +2,61 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Your Name</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juan Son</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
     <h1>Juan Son</h1>
-    <p>Computer Science Graduate | Aspiring Software Engineer</p>
+    <p>B.S. in Computer Science, Minor in Mathematics</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <main>
+  <section id="about">
     <h2>About Me</h2>
-    <p>Brief description. Add goals, skills, and passions.</p>
+    <p>Computer Science graduate from the University of Houston with a 3.52 GPA. Passionate about building real-time data pipelines and web applications using modern technologies.</p>
+  </section>
 
+  <section id="projects">
     <h2>Projects</h2>
-    <ul>
-      <li><a href="https://github.com/yourusername/project1">Project 1</a></li>
-      <li><a href="https://github.com/yourusername/project2">Project 2</a></li>
-    </ul>
+    <div class="project-card">
+      <h3>StockStream</h3>
+      <p>Automated stock market data pipeline ingesting real-time data from 5,000+ stocks and a dashboard with 10+ technical indicators, reducing processing time by 30%.</p>
+      <a href="https://github.com/son-juan/stockstream" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project-card">
+      <h3>Coog Select</h3>
+      <p>Course planning app in Python/Flask with PostgreSQL, automating prerequisite checks for 500+ courses and reducing planning time by 35%.</p>
+      <a href="https://github.com/son-juan/coog-select" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project-card">
+      <h3>OrderFlow ML</h3>
+      <p>Real-time bid/ask volume prediction using ACSIL and Python, improving signal accuracy by 18% and reducing end-to-end latency below 300 ms.</p>
+      <a href="https://github.com/son-juan/orderflow-ml" target="_blank">View on GitHub</a>
+    </div>
+  </section>
 
-    <h2>Contact</h2>
-    <p>Email: sonjuan27@gmail.com</p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">yourprofile</a></p>
-
+  <section id="resume">
     <h2>Resume</h2>
-    <p><a href="resume.pdf" target="_blank">View My Resume</a></p>
-  </main>
+    <p><a href="resume.pdf" target="_blank">Download My Resume (PDF)</a></p>
+  </section>
 
-  <h2>Projects</h2>
-
-  <div class="project-card">
-    <h3>StockStream</h3>
-    <p>Real-time stock dashboard using Python and Docker. Displays live stock data in a clean UI.</p>
-  </div>
+  <section id="contact">
+    <h2>Contact</h2>
+    <ul>
+      <li>Email: <a href="mailto:sonjuan27@gmail.com">sonjuan27@gmail.com</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/juanson/" target="_blank">linkedin.com/in/juanson</a></li>
+      <li>GitHub: <a href="https://github.com/son-juan" target="_blank">github.com/son-juan</a></li>
+      <li>Website: <a href="https://juanson.github.io" target="_blank">juanson.github.io</a></li>
+    </ul>
+  </section>
 
   <script src="js/main.js"></script>
 </body>
